@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/dialog_titel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titel"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        />
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/dialog_et_phone_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_bg"
+        android:padding="15dp"
+        />
+     <EditText
+        android:id="@+id/dialog_et_phone_prix"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="prix"
+        android:textColor="#fff"
+        android:textSize="25sp"
+         android:layout_marginBottom="10dp"
+         android:background="@drawable/et_bg"
+         android:padding="15dp"
+         android:maxLines="1"
+         />
+     <EditText
+        android:id="@+id/dialog_et_phone_image_url"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="image url"
+        android:textColor="#fff"
+        android:textSize="25sp"
+         android:layout_marginBottom="10dp"
+         android:background="@drawable/et_bg"
+         android:padding="15dp"
+         android:maxLines="1"
+         />
+
+    <Switch
+        android:id="@+id/dialog_switch_pf"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Finger print"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/switch_bg"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/dialog_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="dialog btn"
+        android:textSize="25sp"
+        android:background="@drawable/btn_bg"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>
